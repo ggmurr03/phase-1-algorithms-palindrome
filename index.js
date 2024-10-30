@@ -1,5 +1,13 @@
+//test if the input word is the same forwards and reverse, return true if forwards matches backwards
+//
+// function (word){
+
+//}
 function isPalindrome(word) {
-  // Write your algorithm here
+  const backward = word.split("").reverse().join("")
+if(word===backward){return true}
+else {return false}
+
 }
 
 /* 
